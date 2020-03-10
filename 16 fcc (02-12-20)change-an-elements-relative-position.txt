@@ -1,0 +1,16 @@
+<!--CSS trata cada elemento HTML como se fosse sua propria caixa, a qual nos referimos como CSS Box Model. Elementos inline continuam na mesma linha, ja itens no nivel de cada bloco começam na seguinte 
+Podemos alterar isso usando coordenadas relativas... os elementos seguintes vao seguir a configuração normal! Somente o bloco indicado sera alterado
+-->
+
+<style>
+  h2 {
+    position: relative;
+    top: 15px;
+
+  }
+</style>
+<body>
+  <h1>On Being Well-Positioned</h1>
+  <h2>Move me!</h2>
+  <p>I still think the h2 is where it normally sits.</p>
+</body>
